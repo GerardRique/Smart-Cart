@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "902004921162",
+    "firebase_url": "https://smart-cart-e0e56.firebaseio.com",
+    "project_id": "smart-cart-e0e56",
+    "storage_bucket": "smart-cart-e0e56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902004921162:android:2701e909d806bcf9",
+        "android_client_info": {
+          "package_name": "com.forwardmovementtech.gerard.smartcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902004921162-vudu9ld5lmahndelg1rfif759ortmjo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forwardmovementtech.gerard.smartcart",
+            "certificate_hash": "6a4ecddf6ba5a26f38e249bb99c06bb3c394d3e4"
+          }
+        },
+        {
+          "client_id": "902004921162-840utfqcq6b8car4m7r5qsmg05r4nu7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-JpawmKIJlL2O6WEkE1c510oZxxqCKcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902004921162-840utfqcq6b8car4m7r5qsmg05r4nu7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
