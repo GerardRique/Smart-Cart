@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CartListActivity"
-    android:orientation="vertical">
-
+    tools:context=".ProductPreviewActivity">
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/scan_barcode"
+        android:id="@+id/add_to_cart_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="end|right|bottom"
+        android:layout_gravity="bottom|right|bottom"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_add_black_24dp"
-        app:backgroundTint="@color/colorPrimary"/>
+        android:src="@drawable/ic_shopping_cart_white_24dp"
+        app:backgroundTint="@color/colorPrimary" />
 
 </android.support.design.widget.CoordinatorLayout>

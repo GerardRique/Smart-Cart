@@ -2,11 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.forwardmovementtech.gerard.smartcart">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_basic_launch_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_basic_launch_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CartListActivity">
@@ -16,6 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BarcodeScannerActivity" />
+        <activity android:name=".ProductPreviewActivity"></activity>
     </application>
 
 </manifest>
